@@ -1,5 +1,5 @@
 # Non-Contact Vascular Visualization & Hemodynamic Analysis Using NIR Imaging, 3D Modeling, and Local Edge AI
-Designed a low-cost biomedical imaging system that visualizes veins and analyzes blood flow without skin contact while also simultaneously creating a 3D anatomical model of the user's hand using computer vision and edge AI
+I Designed a low-cost biomedical imaging system that visualizes veins and analyzes blood flow without skin contact while also simultaneously creating a 3D anatomical model of the user's hand using computer vision and edge AI
 
 Blood vessels carry blood throughout the body. When a blood vessel becomes narrowed or blocked, blood flow can decrease and lead to serious health problems. Doctors usually detect these problems using imaging tools like ultrasound or angiograms. However, these methods have limitations, are expensive, require direct contact with the body, and are not always available everywhere. For example, a medical ultrasound machine can cost between $20,000 and $75,000. Because of these limitations, I wanted to explore a low-cost, non-contact alternative. My research focused on how near-infrared light (NIR light) interacts with the human body (specifically veins) help in vein detection and can lead to future research in detecting and preventing venous diseases/abnormalities. 
 
