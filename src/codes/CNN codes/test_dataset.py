@@ -1,7 +1,7 @@
 from train_cnn import VeinDataset
 
-FRAMES_DIR = "/home/taran/vein-t/data/frames"
-MASKS_DIR = "/home/taran/vein-t/data/masks"
+FRAMES_DIR = "/home/taran/vein-t/data/frames" #Change this (depending on organization)
+MASKS_DIR = "/home/taran/vein-t/data/masks" #Change this (depending on organization)
 
 ds = VeinDataset(FRAMES_DIR, MASKS_DIR)
 
