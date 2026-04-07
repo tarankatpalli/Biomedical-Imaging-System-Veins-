@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 from skimage.filters import frangi
 
-FRAMES_DIR = "/home/taran/vein-t/data/frames"
-MASKS_DIR  = "/home/taran/vein-t/data/masks"
+FRAMES_DIR = "/home/taran/vein-t/data/frames" #Change this (depends on organization)
+MASKS_DIR  = "/home/taran/vein-t/data/masks" #Change this (depends on organization
 
 IMG_SIZE = 256
 
