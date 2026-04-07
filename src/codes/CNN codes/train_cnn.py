@@ -6,8 +6,8 @@ from torch import nn
 from torch.utils.data import Dataset, DataLoader
 from model import VeinCNN
 
-FRAMES_DIR = "/home/taran/vein-t/data/frames"
-MASKS_DIR = "/home/taran/vein-t/data/masks"
+FRAMES_DIR = "/home/taran/vein-t/data/frames" #Change this (depends on organization)
+MASKS_DIR = "/home/taran/vein-t/data/masks" #Change this (depends on organization)
 IMG_SIZE = 256
 EPOCHS = 20
 LR = 1e-3
@@ -92,6 +92,6 @@ try:
 except KeyboardInterrupt:
     print("\nTraining interrupted by user")
 
-os.makedirs("/home/taran/vein-t/output", exist_ok=True)
-torch.save(model.state_dict(), "/home/taran/vein-t/output/cnn_veins.pth")
-print("Model saved to output/cnn_veins.pth")
+os.makedirs("/home/taran/vein-t/output", exist_ok=True) #Change this (depends on organization)
+torch.save(model.state_dict(), "/home/taran/vein-t/output/cnn_veins.pth") #Change this (depends on organization)
+print("Model saved to output/cnn_veins.pth") #Change this (depends on organization)
