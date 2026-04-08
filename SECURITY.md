@@ -21,7 +21,7 @@ We currently provide security updates for the following versions:
 
 If you find a security bug (such as a data leak, buffer overflow in C++ components, or a way to bypass the local Edge AI sandbox), please report it via:
 
-1.  **GitHub Private Reporting:** Go to the [Security Tab](https://github.com) and select "Report a vulnerability."
+1.  **GitHub Private Reporting:** Go to the Security Tab and select "Report a vulnerability."
 2.  **Direct Email:** taran.r.katpalli@gmail.com
 
 ### 📝 What to include in your report:
